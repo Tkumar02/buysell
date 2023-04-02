@@ -1,0 +1,14 @@
+<!-- <div style="display: flex; justify-content: flex-end;">
+    <a routerLink="/my-listings">
+        <button>
+            My Listings
+        </button>
+    </a>
+</div> -->
+<div>
+    <div class="content-box" *ngFor="let listing of listings">
+        <a routerLink="/listings/{{listing.id}}">
+            <h3>{{listing.name}} - £{{listing.price}}</h3>
+        </a>
+    </div>
+</div>

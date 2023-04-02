@@ -1,1 +1,86 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    --preferred-br: 8px;
+    --preferred-px: 16px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+}
+
+button {
+    background-color: black;
+    border: none;
+    border-radius: var(--preferred-br);
+    color: white;
+    cursor: pointer;
+    outline: none;
+    padding: var(--preferred-px);
+    font-family: Arial, sans-serif;
+    font-size: var(--preferred-px);
+}
+
+input, textarea {
+    border: 2px solid black;
+    border-radius: var(--preferred-br);
+    font-family: Arial, sans-serif;
+    font-size: var(--preferred-px);
+    padding: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+div {
+    padding: 8px;
+}
+
+#page-wrap {
+    background-color: #614646;
+    min-height: 100vh;
+    padding: 0;
+    width: 100vw;
+}
+
+#max-width-column {
+    background-color: white;
+    margin: auto;
+    max-width: 700px;
+    min-height: 100vh;
+    padding: 16px;
+    position: relative;
+}
+
+#app-heading{
+    margin-top: 0;
+}
+
+#my-listings-button {
+    position: absolute;
+    top: var(--preferred-px);
+    right: var(--preferred-px);
+}
+
+#content-wrap {
+    padding: var(--preferred-px);
+}
+
+.content-box {
+    background-color: #EEE;
+    border-radius: var(--preferred-br);
+    padding: var(--preferred-px);
+    position: relative;
+    margin-bottom: var(--preferred-px);
+}
+
+.buttons-container {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    padding: var(--preferred-px);
+}
+
+.buttons-container > button {
+    margin-left: 8px;
+}
