@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-buysell2-dev-120909-authRole",
+      "UnauthRoleArn": "arn:aws:iam::643365932442:role/amplify-buysell2-dev-120909-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::643365932442:role/amplify-buysell2-dev-120909-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-buysell2-dev-120909-deployment",
+      "UnauthRoleName": "amplify-buysell2-dev-120909-unauthRole",
+      "StackName": "amplify-buysell2-dev-120909",
+      "StackId": "arn:aws:cloudformation:eu-west-2:643365932442:stack/amplify-buysell2-dev-120909/9f6622c0-d534-11ed-8912-0aa48804ae92",
+      "AmplifyAppId": "drakzm92mkng5"
+    },
+    "categories": {
+      "api": {
+        "buysell2": {}
+      }
+    }
+  }
+}

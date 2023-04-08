@@ -1,0 +1,31 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateListing2($filter: ModelSubscriptionListing2FilterInput) {
+  onCreateListing2(filter: $filter) {
+    id
+    name
+    description
+    price
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateListing2($filter: ModelSubscriptionListing2FilterInput) {
+  onUpdateListing2(filter: $filter) {
+    id
+    name
+    description
+    price
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteListing2($filter: ModelSubscriptionListing2FilterInput) {
+  onDeleteListing2(filter: $filter) {
+    id
+    name
+    description
+    price
+    createdAt
+    updatedAt
+  }
+}

@@ -1,0 +1,40 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateListing2(
+  $input: CreateListing2Input!
+  $condition: ModelListing2ConditionInput
+) {
+  createListing2(input: $input, condition: $condition) {
+    id
+    name
+    description
+    price
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateListing2(
+  $input: UpdateListing2Input!
+  $condition: ModelListing2ConditionInput
+) {
+  updateListing2(input: $input, condition: $condition) {
+    id
+    name
+    description
+    price
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteListing2(
+  $input: DeleteListing2Input!
+  $condition: ModelListing2ConditionInput
+) {
+  deleteListing2(input: $input, condition: $condition) {
+    id
+    name
+    description
+    price
+    createdAt
+    updatedAt
+  }
+}

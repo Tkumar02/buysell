@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+import { AmplifyAuthenticatorModule } from '@aws-amplify/ui-angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +14,7 @@ import { NewListingsPageComponent } from './new-listings-page/new-listings-page.
 import { EditListingPageComponent } from './edit-listing-page/edit-listing-page.component';
 import { ListingDataFormComponent } from './listing-data-form/listing-data-form.component';
 import { NavHeaderComponent } from './nav-header/nav-header.component';
+import { Listings2Component } from './listings2/listings2.component';
 
 @NgModule({
   declarations: [
@@ -23,12 +26,14 @@ import { NavHeaderComponent } from './nav-header/nav-header.component';
     NewListingsPageComponent,
     EditListingPageComponent,
     ListingDataFormComponent,
-    NavHeaderComponent
+    NavHeaderComponent,
+    Listings2Component
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
