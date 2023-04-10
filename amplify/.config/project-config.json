@@ -6,9 +6,10 @@
     "framework": "angular",
     "config": {
       "SourceDir": "src",
-      "DistributionDir": "dist",
+      "DistributionDir": "dist/buysell",
       "BuildCommand": "npm.cmd run-script build",
-      "StartCommand": "ng serve"
+      "StartCommand": "ng serve",
+      "ServerlessContainers": false
     }
   },
   "providers": [

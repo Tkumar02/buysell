@@ -14,6 +14,15 @@
     "categories": {
       "api": {
         "buysell2": {}
+      },
+      "auth": {
+        "buysell2c35f29b6": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "drakzm92mkng5",
+          "type": "manual"
+        }
       }
     }
   }

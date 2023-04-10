@@ -16,6 +16,7 @@ import { ListingDataFormComponent } from './listing-data-form/listing-data-form.
 import { NavHeaderComponent } from './nav-header/nav-header.component';
 import { Listings2Component } from './listings2/listings2.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +34,8 @@ import { Listings2Component } from './listings2/listings2.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AmplifyAuthenticatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]

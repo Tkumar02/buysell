@@ -1,3 +1,5 @@
+@import '~@aws-amplify/ui-angular/theme.css';
+
 body{
     --preferred-br: 8px;
     --preferred-px: 16px;
